@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Form Challenge</title>
+    </head>
+    <body>
+        <form>
+            <h1>My Happy Form</h1>
+            <div class="name-row">
+            <input type = "text" id = "name" name = "name" placeholder="First Name" class= "name-input">
+            <input type = "text" id = "last-name" name = "last-name" placeholder="Last Name" class= "name-input">
+            </div>
+            <input type = "text" id = "comments">
+            <div class="newsletter-row">
+            <label for="newsletter" class="newsletter">Subscribe to newsletter</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            </div>
+            <input type = "email" id = "email" name = "email" placeholder="Enter your email">
+            <input type = "submit" id = "mySubmit" value = "Submit">
+            <p id="message"></p>
+        </form>
+        <script src="app.js"></script>
+    </body>
+</html>
